@@ -3,12 +3,12 @@ let BaseUrl = "http://zhizhen.jobpgroup.com"
 const Logo = { 'deep': cloudUrl + "/logo.png", 'white': cloudUrl + "/logo-white.png" }
 const Nav = [
     { 'cn': "首页", 'en': "HOME", 'url': "/" },
-    { 'cn': "市场优势", 'en': "MARKET ADVANTAGE", 'url': "/#/detail/index?p=market" },
-    { 'cn': "关于我们", 'en': "ABOUT US", 'url': "/#/detail/index?p=about" },
-    { 'cn': "服务流程", 'en': "SERVICE PROCESS", 'url': "/#/detail/index?p=service" },
-    { 'cn': "发展前景", 'en': "DEVELOPMENT PROSPECT", 'url': "/#/detail/index?p=develop" },
-    { 'cn': "品牌文化", 'en': "BRAND CULTURE", 'url': "/#/detail/index?p=brand" },
-    { 'cn': "联系我们", 'en': "CONTACT US", 'url': "/#/contact/index" }
+    { 'cn': "市场优势", 'en': "MARKET ADVANTAGE", 'url': "/detail?p=market" },
+    { 'cn': "关于我们", 'en': "ABOUT US", 'url': "/detail?p=about" },
+    { 'cn': "服务流程", 'en': "SERVICE PROCESS", 'url': "/detail?p=service" },
+    { 'cn': "发展前景", 'en': "DEVELOPMENT PROSPECT", 'url': "/detail?p=develop" },
+    { 'cn': "品牌文化", 'en': "BRAND CULTURE", 'url': "/detail?p=brand" },
+    { 'cn': "联系我们", 'en': "CONTACT US", 'url': "/contact" }
 ]
 const Copyright = {
     "icp": "沪ICP备19019514号-1",

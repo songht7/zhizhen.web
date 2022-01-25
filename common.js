@@ -4,7 +4,7 @@ const Logo = { 'deep': cloudUrl + "/logo.png", 'white': cloudUrl + "/logo-white.
 const Nav = [
     { 'cn': "首页", 'en': "HOME", 'url': "/" },
     { 'cn': "市场优势", 'en': "MARKET ADVANTAGE", 'url': "/#/detail/index?p=market" },
-    { 'cn': "关于我们", 'en': "ABOUT US", 'url': "/#/detail/index?p=about" },
+    { 'cn': "关于我们", 'en': "ABOUT US", 'url': "/#/about/index" },
     { 'cn': "服务流程", 'en': "SERVICE PROCESS", 'url': "/#/detail/index?p=service" },
     { 'cn': "发展前景", 'en': "DEVELOPMENT PROSPECT", 'url': "/#/detail/index?p=develop" },
     { 'cn': "品牌文化", 'en': "BRAND CULTURE", 'url': "/#/detail/index?p=brand" },
@@ -44,13 +44,19 @@ const ContDetail = {
             { "pic": cloudUrl + '/detail/market/4-1.jpg', 'picCont': cloudUrl + '/detail/market/4-2.jpg', 'detail': cloudUrl + '/detail/market/4-3.png', 'dShow': false, "title": "竞争分析" },
         ],
         /*服务流程*/
-        'service': [
-            { "pic": cloudUrl + '/detail/service/1-1.jpg', 'picCont': cloudUrl + '/detail/service/1-2.jpg', 'detail': cloudUrl + '/detail/service/1-3.png', 'dShow': false, "title": "" },
-            { "pic": cloudUrl + '/detail/service/2-1.jpg', 'picCont': cloudUrl + '/detail/service/2-2.jpg', 'detail': cloudUrl + '/detail/service/2-3.png', 'dShow': false, "title": "" },
-            { "pic": cloudUrl + '/detail/service/3-1.jpg', 'picCont': cloudUrl + '/detail/service/3-2.jpg', 'detail': cloudUrl + '/detail/service/3-3.png', 'dShow': false, "title": "" },
-            { "pic": cloudUrl + '/detail/service/4-1.jpg', 'picCont': cloudUrl + '/detail/service/4-2.jpg', 'detail': cloudUrl + '/detail/service/4-3.png', 'dShow': false, "title": "" },
-        ],
+        'service': [],
     }
+}
+const ContAbout = {
+    list:
+    {
+        "map": cloudUrl + '/about/map.jpg', 'mapDetail': cloudUrl + '/about/map-detail.jpg',
+        'team': cloudUrl + '/about/title1.png', 'teamOv': [cloudUrl + '/about/title1-l1.png', cloudUrl + '/about/title1-l2.png', cloudUrl + '/about/title1-l3.png'], "teamPic": cloudUrl + '/about/jtz.jpg',
+        "partner": [cloudUrl + '/about/p1.jpg', cloudUrl + '/about/p2.jpg', cloudUrl + '/about/p3.jpg', cloudUrl + '/about/p4.jpg'],
+        "milepost": cloudUrl + '/about/lcb.jpg',
+        "vision":[ cloudUrl + '/about/b-v.png',  cloudUrl + '/about/b-m.png'], "bettomBg": cloudUrl + '/about/ljz.jpg',
+    },
+
 }
 // export default {
 //     Logo,
@@ -62,5 +68,6 @@ module.exports = {
     Nav,
     Copyright,
     ContHome,
-    ContDetail
+    ContDetail,
+    ContAbout
 }
